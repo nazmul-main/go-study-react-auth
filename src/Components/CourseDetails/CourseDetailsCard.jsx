@@ -16,15 +16,15 @@ const CourseDetailsCard = ({ course }) => {
                 <p className='w-3/5 justify-center'>A React JS tutorial for beginners is a comprehensive introduction to React, a popular JavaScript library for building user interfaces. This tutorial typically starts by explaining React's key concepts, including components and the Virtual DOM. It guides learners through setting up a development environment and creating their first React project.
                 </p><br />
                 <div className='bg-[#F9F9F9] py-6 '>
-                    <p className='text-xl font-bold text-center space-y-7'>What you will learn?</p>
-                    <div className='flex mx-auto gap-24 w-3/5 items-center justify-between '>
-                        <ul className='list-disc text-center'>
+                    <p className='text-2xl font-bold text-center mb-7'>What you will learn?</p>
+                    <div className='flex mx-auto gap-16 w-3/5 items-center justify-between '>
+                        <ul className='list-disc space-y-2'>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                         </ul>
-                        <ul className='list-disc text-center'>
+                        <ul className='list-disc  space-y-2'>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                             <li>Learn how perspective works and how to incorporate it into your art</li>
                             <li>Learn how perspective works and how to incorporate it into your art</li>

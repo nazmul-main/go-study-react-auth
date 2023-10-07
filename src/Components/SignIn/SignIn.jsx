@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SocialLogin from "../Social/SocialLogin";
 
 const SignIn = () => {
     return (
@@ -35,6 +36,7 @@ const SignIn = () => {
 
                     <p>Ceate an acount ! <Link className="text-blue-800 font-semibold" to="/signup">Sign Up</Link> </p>
                 </form>
+                <SocialLogin></SocialLogin>
 
             </div>
         </div>
