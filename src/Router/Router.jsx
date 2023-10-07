@@ -8,6 +8,7 @@ import Contact from '../Pages/Contact/Contact';
 import SignIn from '../Components/SignIn/SignIn';
 import SignUp from '../Components/SignUp/SignUp';
 import Error from '../Error/Error';
+import CourseDetails from '../Components/CourseDetails/CourseDetails';
 
 const Router = createBrowserRouter([
     {
@@ -41,7 +42,9 @@ const Router = createBrowserRouter([
                 element: <SignUp></SignUp>
             },
             {
-                path: '/course/:id'
+                path: '/details/:id',
+                element: <CourseDetails></CourseDetails>,
+                loader: () => fetch('/data.json')
             }
         ]
     }

@@ -31,7 +31,7 @@ const OurCoursesCard = ({ course }) => {
                     </p>
                 </div>
                 <div className="p-6 pt-0">
-                    <Link to={`/course/${id}`}>
+                    <Link to={`/details/${id}`}>
                         <button className="w-full btn text-red-600 hover:bg-red-600 hover:text-white" type="button" >Details</button>
                     </Link>
                 </div>
