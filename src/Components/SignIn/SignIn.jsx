@@ -31,12 +31,8 @@ const SignIn = () => {
                 navigate('/')
             })
             .catch(err => {
-                console.error('Error message:', err.message); // Log the error message for debugging
-                if (err.message === "email doesn't match") {
-                    toast.error("Email doesn't match");
-                } else {
-                    toast.error("Password doesn't match");
-                }
+                toast.error(err.message); // Log the error message for debugging
+                
             });
 
 
