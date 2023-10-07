@@ -9,6 +9,7 @@ import SignIn from '../Components/SignIn/SignIn';
 import SignUp from '../Components/SignUp/SignUp';
 import Error from '../Error/Error';
 import CourseDetails from '../Components/CourseDetails/CourseDetails';
+import PrivateRoute from '../PrivateRoute/PrivateRoute';
 
 const Router = createBrowserRouter([
     {
@@ -43,7 +44,9 @@ const Router = createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                element: <CourseDetails></CourseDetails>,
+                element: <PrivateRoute>
+                    <CourseDetails></CourseDetails>
+                </PrivateRoute>,
                 loader: () => fetch('/data.json')
             }
         ]

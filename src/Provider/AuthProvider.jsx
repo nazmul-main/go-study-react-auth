@@ -13,7 +13,7 @@ const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
 
-    // const [user, setUser] = useState({});
+    const [user, setUser] = useState({});
     // const [loading, setLoading] = useState(true)
     
 
@@ -24,7 +24,6 @@ const AuthProvider = ({ children }) => {
         return signInWithPopup(auth, googleProvider)
     }
 
-    const user = 'kodom ali'
 
     /* Sign Up user*/
     const createuser = (email, password) => {
@@ -33,11 +32,11 @@ const AuthProvider = ({ children }) => {
     }
 
     /* sign in user*/
-    /* const signin = (email, password) => {
-        setLoading(user)
+    const signin = (email, password) => {
+        // setLoading(user)
         return signInWithEmailAndPassword(auth, email, password)
     }
- */
+
    /*  const handleUpdateProfile = (name, photo) => {
         return updateProfile(auth.currentUser, {
             displayName: name, photoURL: photo
@@ -45,25 +44,30 @@ const AuthProvider = ({ children }) => {
     } */
 
     /* Log out */
-    /* const logout = () => {
+    const logout = () => {
         return signOut(auth)
-    } */
+    }
 
 
     /* Currrent user / using observer */
-    /* useEffect(() => {
+    useEffect(() => {
         onAuthStateChanged(auth, (user) => {
            setUser(user)
-           setLoading(false)
+        //    setLoading(false)
         });
-    }, []) */
+    }, [])
+
+    console.log(user);
 
 
 
     const authentications = {
         googleLogin,
         createContext,
-        createuser
+        createuser,
+        signin,
+        user,
+        logout
        
         
 

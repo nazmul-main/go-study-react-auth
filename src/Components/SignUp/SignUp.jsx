@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import { Link } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
@@ -17,23 +18,44 @@ const SignUp = () => {
         const img = e.target.img.value
         const password = e.target.password.value
 
-        console.log(name ,email ,password);
+        console.log(name, email, password);
 
         /* password validation */
         if (password.length < 6) {
             toast.error('is less than 6 characters');
             return;
         }
-        
+
         if (!/[A-Z]/.test(password)) {
             toast.error("don't have a capital letter");
             return;
         }
-        
-        if (!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]/.test(password)){
+
+        if (!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)) {
             toast.error("don't have a special character");
             return;
         }
+
+        /* creatting  user */
+
+
+        // createuser(email, password)
+        //     .then(res => {
+        //         handleUpdateProfile(name, img)
+        //             .then(() => {
+        //                 toast.success('user create succesfully')
+        //                 navigate('/')
+        //             })
+
+        //     })
+        //     .catch(err => {
+        //         toast.error(err.message)
+        //     })
+
+
+        createuser(email, password)
+        .then(res => console.log(res))
+        .catch(err => console.log(err))
 
     }
 
@@ -50,7 +72,7 @@ const SignUp = () => {
                             type="name"
                             name="name"
                             id="" required /><br />
-                            
+
                     </div>
                     <div>
                         <input

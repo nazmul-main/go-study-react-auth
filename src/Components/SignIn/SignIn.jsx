@@ -1,13 +1,52 @@
 import { Link } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
+import UseAuth from "../../Hooks/UseAuth";
+import toast from "react-hot-toast";
 
 const SignIn = () => {
+    const { signin } = UseAuth()
+
+
+    const handleSignin = (e) => {
+        e.preventDefault();
+
+        /* get feild values */
+        const email = e.target.email.value
+        const password = e.target.password.value
+
+
+        /* validation */
+       /*  if (password.length < 6) {
+            toast.error('password must be at least 6 characters');
+            return
+        } */
+
+
+        /* creatting a new user */
+        signin(email, password)
+            /* .then(res => {
+                toast.success('Log in successfully');
+                // navigate('/')
+            })
+            .catch(err => {
+                if (err.message === "email doesn't match") {
+                    toast.error("Email doesn't match");
+                } else {
+                    toast.error("password doesn't match");
+                }
+            }); */
+
+            .then(res => console.log(res))
+            .catch(err => console.log(err))
+
+
+    }
     return (
         <div className="max-w-screen-xl mx-auto mt-10 px-7">
             <div className=" mx-auto p-5   md:w-3/5 lg:w-1/3 bg-slate-200 rounded-md">
                 <h2 className="text-3xl font-semibold mb-8 text-center">Sign In</h2>
 
-                <form className="space-y-7 ">
+                <form onSubmit={handleSignin} className="space-y-7 ">
                     <div>
                         <input
                             className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
