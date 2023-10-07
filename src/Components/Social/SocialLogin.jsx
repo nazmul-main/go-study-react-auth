@@ -1,15 +1,24 @@
+/* eslint-disable no-unused-vars */
 import { useContext } from "react";
 import { AuthContex } from "../../Provider/AuthProvider";
+import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 const SocialLogin = () => {
 
     const {googleLogin} = useContext(AuthContex)
+    const navigate = useNavigate()
 
  
      const handleSocialLogin = (media) => {
         media()
-        .then(res => console.log(res))
-        .catch(err => console.log(err))
+        .then(res => {
+            toast.success('user create succesfully')
+            navigate('/')
+        })
+        .catch(err => {
+            toast.error(err.message)
+        })
      }
 
 

@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
 import UseAuth from "../../Hooks/UseAuth";
 import toast from "react-hot-toast";
@@ -8,7 +8,10 @@ import toast from "react-hot-toast";
 
 const SignUp = () => {
 
-    const { createuser } = UseAuth();
+    const { createuser, handleUpdateProfile } = UseAuth();
+    const navigate = useNavigate()
+
+
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -39,18 +42,18 @@ const SignUp = () => {
         /* creatting  user */
 
 
-        // createuser(email, password)
-        //     .then(res => {
-        //         handleUpdateProfile(name, img)
-        //             .then(() => {
-        //                 toast.success('user create succesfully')
-        //                 navigate('/')
-        //             })
+        createuser(email, password)
+            .then(res => {
+                handleUpdateProfile(name, img)
+                    .then(() => {
+                        toast.success('user create succesfully')
+                        navigate('/')
+                    })
 
-        //     })
-        //     .catch(err => {
-        //         toast.error(err.message)
-        //     })
+            })
+            .catch(err => {
+                toast.error(err.message)
+            })
 
 
         /* createuser(email, password)
