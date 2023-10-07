@@ -5,16 +5,16 @@ const navLink = <>
 
 
     <li><NavLink to="/" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "active" : ""}> HOME</NavLink>
+        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Home</NavLink>
     </li>
     <li><NavLink to="/courses" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "active" : ""}> Courses</NavLink>
+        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Courses</NavLink>
     </li>
     <li><NavLink to="/blog" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "active" : ""}> Blog</NavLink>
+        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Blog</NavLink>
     </li>
     <li><NavLink to="/contact" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "active" : ""}> Concant</NavLink>
+        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Concant</NavLink>
     </li>
 
 
@@ -23,20 +23,21 @@ const Navbar = () => {
     const {user, logout} = UseAuth()
 
     return (
-        <div className="navbar bg-base-100 max-w-screen-xl mx-auto">
+        <div className="w-full fixed bg-white">
+            <div className="navbar bg-base-100 max-w-screen-xl mx-auto  ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn  lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul className=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-700 w-52">
+                    <ul className="  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-700 w-52">
                         {navLink}
                     </ul>
                 </div>
                 <Link to={'/'} className="btn  normal-case text-xl">GoStudy</Link>
             </div>
             <div className="navbar-center hidden lg:flex items-start">
-                <ul className="menu menu-horizontal px-1">
+                <ul className=" gap-10 menu-horizontal px-1">
                     {navLink}
 
                 </ul>
@@ -49,6 +50,7 @@ const Navbar = () => {
             </div>
             }
 
+        </div>
         </div>
     );
 };

@@ -53,9 +53,9 @@ const SignUp = () => {
         //     })
 
 
-        createuser(email, password)
+        /* createuser(email, password)
         .then(res => console.log(res))
-        .catch(err => console.log(err))
+        .catch(err => console.log(err)) */
 
     }
 
