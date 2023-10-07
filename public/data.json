@@ -1,0 +1,67 @@
+[
+    {
+      "id": "1",
+      "name": "Learn React JS Tutorial For Beginners",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/09/BL8312-740x540.jpg",
+      "price": 19.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "details": "Details for Product 1"
+    },
+    {
+      "id": "2",
+      "name": "Basics of Cooking for Busy People",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/PT991-740x540.jpg",
+      "price": 29.99,
+      "description": "Suspendisse potenti. Nulla facilisi.. asdbfa asdhhadd ",
+      "details": "Details for Product 2"
+    },
+    {
+      "id": "3",
+      "name": "English Pronunciation for Beginners",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/BL416-740x540.jpg",
+      "price": 14.99,
+      "description": "Vivamus non fermentum massa, et rhoncus odio.",
+      "details": "Details for Product 3"
+    },
+    {
+      "id": "4",
+      "name": "Health and Safety Awareness Training",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/03/CO994-740x540.jpeg",
+      "price": 24.99,
+      "description": "Quisque sed nunc eget ligula auctor posuere.",
+      "details": "Details for Product 4"
+    },
+    {
+      "id": "5",
+      "name": "Complete Financial Analyst Course",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/03/CO992-740x540.jpg",
+      "price": 34.99,
+      "description": "Suspendisse potenti. Nulla facilisi.. asdbfa asdhhadd .",
+      "details": "Details for Product 5"
+    },
+    {
+      "id": "6",
+      "name": "Easy Food Recipes to Make at Home",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/06/TT433YT-740x540.jpeg",
+      "price": 22.99,
+      "description": "Integer congue libero vel mi elementum.",
+      "details": "Details for Product 6"
+    },
+    {
+      "id": "7",
+      "name": "Drawing and Painting Course for Children",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/BLP019-740x540.jpg",
+      "price": 18.99,
+      "description": "Aenean nec feugiat erat. Sed tincidunt arcu.",
+      "details": "Details for Product 7"
+    },
+    {
+      "id": "8",
+      "name": "IELTS Course for international students",
+      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/04/BLP20-740x540.jpg",
+      "price": 27.99,
+      "description": "Cras vel eros vitae elit bibendum mattis.",
+      "details": "Details for Product 8"
+    }
+  ]
+  
