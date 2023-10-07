@@ -3,8 +3,8 @@ import SocialLogin from "../Social/SocialLogin";
 
 const SignIn = () => {
     return (
-        <div className="max-w-screen-xl mx-auto mt-10 ">
-            <div className=" mx-auto w-1/3 p-5 bg-slate-200 rounded-md">
+        <div className="max-w-screen-xl mx-auto mt-10 px-7">
+            <div className=" mx-auto p-5   md:w-3/5 lg:w-1/3 bg-slate-200 rounded-md">
                 <h2 className="text-3xl font-semibold mb-8 text-center">Sign In</h2>
 
                 <form className="space-y-7 ">

@@ -3,11 +3,13 @@ import { AuthContex } from "../../Provider/AuthProvider";
 
 const SocialLogin = () => {
 
-    const {user, googleLogin} = useContext(AuthContex)
+    const {googleLogin} = useContext(AuthContex)
 
  
      const handleSocialLogin = (media) => {
         media()
+        .then(res => console.log(res))
+        .catch(err => console.log(err))
      }
 
 
@@ -18,7 +20,7 @@ const SocialLogin = () => {
         <div>
             <div className='divider'>  Continue With </div>
             <div>
-                <button className='btn'>
+                <button onClick={() => handleSocialLogin(googleLogin)} className='btn'>
                     Google
                 </button>
             </div>

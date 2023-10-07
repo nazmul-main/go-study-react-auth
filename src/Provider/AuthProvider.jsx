@@ -20,17 +20,17 @@ const AuthProvider = ({ children }) => {
 
     /* google login */
     const googleLogin = (email, password) => {
-        setLoading(user)
+        // setLoading(user)
         return signInWithPopup(auth, googleProvider)
     }
 
     const user = 'kodom ali'
 
     /* Sign Up user*/
-    /* const createuser = (email, password) => {
-        setLoading(user)
+    const createuser = (email, password) => {
+        // setLoading(user)
         return createUserWithEmailAndPassword(auth, email, password)
-    } */
+    }
 
     /* sign in user*/
     /* const signin = (email, password) => {
@@ -62,7 +62,8 @@ const AuthProvider = ({ children }) => {
 
     const authentications = {
         googleLogin,
-        user
+        createContext,
+        createuser
        
         
 
