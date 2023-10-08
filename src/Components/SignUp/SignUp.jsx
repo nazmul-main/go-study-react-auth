@@ -41,8 +41,6 @@ const SignUp = () => {
         }
 
         /* creatting  user */
-
-
         createuser(email, password)
             .then(res => {
                 handleUpdateProfile(name, img)
@@ -57,10 +55,7 @@ const SignUp = () => {
             })
 
 
-        /* createuser(email, password)
-        .then(res => console.log(res))
-        .catch(err => console.log(err)) */
-
+    
     }
 
     return (
