@@ -43,7 +43,7 @@ const SignIn = () => {
 
     }
     return (
-        <div className=" flex  flex-col md:flex-row items-center justify-center  max-w-screen-xl mx-auto mt-10 px-7">
+        <div className=" flex  flex-col md:flex-row items-center justify-center  max-w-screen-xl mx-auto mt-10 px-7 py-24">
              <div className="w-2/4 col-span-1 ">
                 <img className="" src="/public/resource/undraw_Login_re_4vu2-removebg-preview.jpg" alt="" />
             </div>

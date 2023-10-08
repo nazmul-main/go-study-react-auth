@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
 import UseAuth from "../../Hooks/UseAuth";
 import toast from "react-hot-toast";
@@ -10,6 +10,7 @@ const SignUp = () => {
 
     const { createuser, handleUpdateProfile } = UseAuth();
     const navigate = useNavigate()
+    const location = useLocation()
 
 
     const handleSubmit = (e) => {
@@ -47,7 +48,7 @@ const SignUp = () => {
                 handleUpdateProfile(name, img)
                     .then(() => {
                         toast.success('user create succesfully')
-                        navigate('/')
+                        navigate(location?.state ? location.state : '/')
                     })
 
             })
@@ -63,7 +64,7 @@ const SignUp = () => {
     }
 
     return (
-        <div className="flex  flex-col md:flex-row-reverse items-center justify-center max-w-screen-xl mx-auto mt-10 px-7">
+        <div className="flex  flex-col md:flex-row-reverse items-center justify-center max-w-screen-xl mx-auto mt-10 px-7 py-6">
             <div className="md:w-2/4 col-span-1">
                 <img src="/public/resource/undraw_Sign_up_n6im-removebg-preview.jpg" alt="" />
             </div>
