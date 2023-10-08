@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
 import UseAuth from "../../Hooks/UseAuth";
 import toast from "react-hot-toast";
@@ -7,6 +7,8 @@ import toast from "react-hot-toast";
 const SignIn = () => {
     const { signin } = UseAuth()
     const navigate = useNavigate()
+    const location = useLocation()
+    console.log('login page', location);
 
 
     const handleSignin = (e) => {
@@ -28,7 +30,7 @@ const SignIn = () => {
         signin(email, password)
             .then(res => {
                 toast.success('Log in successfully');
-                navigate('/')
+                navigate(location?.state ? location.state : '/')
             })
             .catch(err => {
                 toast.error(err.message); // Log the error message for debugging
