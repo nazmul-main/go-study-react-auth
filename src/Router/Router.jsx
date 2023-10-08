@@ -12,6 +12,7 @@ import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import EvenetDetails from '../Components/EvenetDetails/EvenetDetails';
 import Benifits from '../Components/Benifits/Benifits';
 import TeamMember from '../Components/TeamMember/TeamMember';
+import Events from '../Pages/Events/Events';
 
 const Router = createBrowserRouter([
     {
@@ -25,8 +26,9 @@ const Router = createBrowserRouter([
                 loader: () => fetch('/data.json')
             },
             {
-                path: '/courses',
-                element: <Courses></Courses>
+                path: '/event',
+                element: <Events></Events>,
+                loader: () => fetch('/data.json')
             },
             {
                 path: '/benifits',

@@ -7,8 +7,8 @@ const navLink = <>
     <li><NavLink to="/" className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Home</NavLink>
     </li>
-    <li><NavLink to="/courses" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Courses</NavLink>
+    <li><NavLink to="/event" className={({ isActive, isPending }) =>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Events</NavLink>
     </li>
     <li><NavLink to="/blog" className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Blog</NavLink>

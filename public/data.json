@@ -62,5 +62,70 @@
     "price": "Free",
     "description": "A History Lecture Series is an educational program that presents a series of lectures on various historical .",
     "event_details": "A History Lecture Series is an educational program that presents a series of lectures on various historical topics and periods. Typically organized by academic institutions, museums, or historical societies, these series aim to provide audiences with in-depth insights into the past. Historians and experts deliver lectures, often accompanied by visual aids and multimedia presentations, to explore historical events, figures, and cultural developments. History Lecture Series serve as a platform for intellectual engagement, fostering a deeper understanding of our shared history, encouraging critical thinking, and promoting historical literacy. They are valuable for students, history enthusiasts, and the general public seeking to expand their knowledge of the past."
+  },
+  {
+    "id": "9",
+    "image": "https://cdn11.bigcommerce.com/s-iuax7bpgx3/images/stencil/1280x1280/products/3288/3690/3690__08413.1666799880.jpg?c=1",
+    "name": "History Lecture Series",
+    "price": "Free",
+    "description": "A History Lecture Series is an educational program that presents a series of lectures on various historical .",
+    "event_details": "A History Lecture Series is an educational program that presents a series of lectures on various historical topics and periods. Typically organized by academic institutions, museums, or historical societies, these series aim to provide audiences with in-depth insights into the past. Historians and experts deliver lectures, often accompanied by visual aids and multimedia presentations, to explore historical events, figures, and cultural developments. History Lecture Series serve as a platform for intellectual engagement, fostering a deeper understanding of our shared history, encouraging critical thinking, and promoting historical literacy. They are valuable for students, history enthusiasts, and the general public seeking to expand their knowledge of the past."
+  },
+  {
+    "id": "10",
+    "image": "https://www.codingninjas.com/blog/wp-content/uploads/2021/08/Blog-2-2.png",
+    "name": "Web Development Bootcamp",
+    "price": "$199.99",
+    "description": "A web development bootcamp is an intensive training program that equips individuals with the,,,,",
+    "event_details": "A web development bootcamp is an intensive training program that equips individuals with the skills needed to create websites and web applications. Typically spanning a few weeks to several months, these hands-on courses cover front-end and back-end technologies, such as HTML, CSS, JavaScript, and server-side languages like Python or Ruby. Students learn how to build responsive, interactive, and user-friendly websites, gaining proficiency in tools and frameworks like React, Node.js, and databases. Bootcamps often focus on real-world projects and collaborative work, preparing participants for careers in web development. They offer a fast track to entering the tech industry and can lead to lucrative job opportunities."
+  },
+  {
+    "id": "11",
+    "image": "https://www.skillsuccess.com/wp-content/uploads/2020/09/creative-writing-5.jpg",
+    "name": "Creative Writing Workshop",
+    "price": "$29.99",
+    "description": "A creative writing workshop is a structured, collaborative learning environment designed to nurture...",
+    "event_details": "A creative writing workshop is a structured, collaborative learning environment designed to nurture and enhance participants' writing skills and creativity. In these workshops, aspiring writers gather to share and critique each other's work, providing constructive feedback and insights. The workshops often cover various forms of creative writing, including poetry, fiction, non-fiction, and more. Experienced instructors facilitate discussions, offer guidance, and teach techniques to help participants develop their unique voices and storytelling abilities. By engaging in writing exercises, analyzing literature, and receiving feedback, participants refine their writing craft and gain a deeper understanding of the creative process. Creative writing workshops encourage self-expression and can be a valuable resource for aspiring authors and poets."
+  },
+  {
+    "id": "12",
+    "image": "https://cdn-az.allevents.in/events5/banners/4d912a7b0c665d3d30ff87a79946934b7b988d6e700109454b93fbc3d3249909-rimg-w1200-h675-gmir.jpg?v=1695057326",
+    "name": "Digital Marketing Masterclass",
+    "price": "$79.99",
+    "description": "A Digital Marketing Masterclass is an intensive course designed to equip individuals with comprehensive",
+    "event_details": "A Digital Marketing Masterclass is an intensive course designed to equip individuals with comprehensive knowledge and skills in the field of digital marketing. It covers various aspects, such as SEO, social media marketing, email marketing, content creation, and analytics. Through practical exercises and real-world examples, participants learn how to create effective digital marketing strategies, optimize websites for search engines, engage with target audiences on social platforms, craft compelling email campaigns, and measure campaign performance. The masterclass helps participants stay updated with the latest digital trends and tools, enabling them to excel in the ever-evolving digital landscape and drive business growth through online channels."
+  },
+  {
+    "id": "13",
+    "image": "https://learning-center.homesciencetools.com/wp-content/uploads/Blog-Banner-2-1080x675.png",
+    "name": "Science Fair for Kids",
+    "price": "Free",
+    "description": "A science fair for kids is an exciting educational event where young students explore science concepts",
+    "event_details": "A science fair for kids is an exciting educational event where young students explore science concepts through hands-on projects. These events typically take place at schools or community centers. Students choose a scientific topic or question, conduct experiments or research, and then present their findings in creative and informative ways. Science fairs encourage critical thinking, problem-solving, and communication skills in children. Participants often construct visually appealing displays, write reports, and sometimes even give oral presentations to judges or peers. These experiences help children develop a love for science, boost their confidence, and inspire them to pursue STEM (Science, Technology, Engineering, and Mathematics) interests in the future."
+  },
+  {
+    "id": "14",
+    "image": "https://thumbs.dreamstime.com/b/financial-literacy-training-schematic-planning-structure-green-school-blackboard-117289951.jpg",
+    "name": "Financial Literacy Seminar",
+    "price": "$19.99",
+    "description": "A financial literacy seminar is an educational event aimed at enhancing individuals' ",
+    "event_details": "A financial literacy seminar is an educational event aimed at enhancing individuals' understanding of financial concepts and money management. Typically conducted by financial experts or organizations, these seminars cover topics such as budgeting, saving, investing, debt management, and retirement planning. Attendees gain practical knowledge and skills to make informed financial decisions and achieve financial stability. Seminars often include interactive sessions, workshops, and discussions to help participants apply what they've learned to their personal finances. By promoting financial literacy, these seminars empower individuals to navigate the complexities of the financial world, avoid common pitfalls, and work towards their financial goals, ultimately leading to improved financial well-being."
+  },
+  {
+    "id": "15",
+    "image": "https://img.freepik.com/free-vector/students-practicing-dynamic-foreign-language-learning-workshop_335657-3306.jpg",
+    "name": "Language Learning Workshop",
+    "price": "$39.99",
+    "description": "A Language Learning Workshop is designed to help participants acquire proficiency in a new",
+    "event_details": "A Language Learning Workshop is designed to help participants acquire proficiency in a new language. These workshops often involve interactive activities, practice exercises, and cultural insights to facilitate language acquisition. The primary goal is to equip attendees with communication skills and cultural awareness, enhancing their ability to interact effectively in a globalized world and potentially improving their career opportunities.On the other hand, a Financial Literacy Seminar is centered around improving individuals' understanding of financial concepts and money management. Topics covered typically include budgeting, saving, investing, debt management, and retirement planning. The aim is to empower participants to make informed financial decisions, achieve financial stability, and secure their financial future.While both types of workshops promote personal growth and skill development, they target entirely different areas: language proficiency and financial acumen."
+  },
+  {
+    "id": "16",
+    "image": "https://cdn11.bigcommerce.com/s-iuax7bpgx3/images/stencil/1280x1280/products/3288/3690/3690__08413.1666799880.jpg?c=1",
+    "name": "History Lecture Series",
+    "price": "Free",
+    "description": "A History Lecture Series is an educational program that presents a series of lectures on various historical .",
+    "event_details": "A History Lecture Series is an educational program that presents a series of lectures on various historical topics and periods. Typically organized by academic institutions, museums, or historical societies, these series aim to provide audiences with in-depth insights into the past. Historians and experts deliver lectures, often accompanied by visual aids and multimedia presentations, to explore historical events, figures, and cultural developments. History Lecture Series serve as a platform for intellectual engagement, fostering a deeper understanding of our shared history, encouraging critical thinking, and promoting historical literacy. They are valuable for students, history enthusiasts, and the general public seeking to expand their knowledge of the past."
   }
 ]
+
