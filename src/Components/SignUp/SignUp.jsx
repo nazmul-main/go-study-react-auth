@@ -71,7 +71,7 @@ const SignUp = () => {
             <div className="flex  flex-col md:flex-row-reverse items-center justify-center max-w-screen-xl mx-auto mt-10 px-7 py-6">
 
                 <div className="md:w-2/4 col-span-1">
-                    <img src="/public/resource/undraw_Sign_up_n6im-removebg-preview.jpg" alt="" />
+                    <img src="../resource/undraw_Sign_up_n6im-removebg-preview.jpg" alt="" />
                 </div>
                 <div className="shadow-md md:w-2/3 col-span-3 mx-auto  lg:w-1/3 p-5  border rounded-md">
                     <h2 className="text-3xl font-bold mb-8 text-center text-[#2C3659] ">Sign up</h2>

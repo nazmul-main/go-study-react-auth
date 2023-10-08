@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
 
 
 const BlogCard = ({ blog }) => {
@@ -16,7 +18,8 @@ const BlogCard = ({ blog }) => {
                         <h2 className="text-xl font-bold">{author}</h2>
                         
                         <h2>Math helps us have better problem-solving skills.
-                            Analytical thinking refers to the ability to think critically about the world around us. Reasoning is our ability to think logically about a situation. Analytical and reasoning skills are important because they help us solve problems and look for solutions <strong className="text-[#fc6c4d] cursor-pointer">Read More--></strong>.</h2>
+                            Analytical thinking refers to the ability to think critically about the world around us. Reasoning is our ability to think logically about a situation. Analytical and reasoning skills are important because they help us solve problems and look for 
+                            Analytical thinking refers to the ability to think critically about the world around us.solutions <strong className="text-[#fc6c4d] cursor-pointer">Read More--</strong>.</h2>
                     </div>
 
                 </div>
@@ -24,6 +27,9 @@ const BlogCard = ({ blog }) => {
             </div>
             
         </>
+
+
+
 
 
     );

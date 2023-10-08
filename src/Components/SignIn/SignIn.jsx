@@ -54,7 +54,7 @@ const SignIn = () => {
             </div>
             <div className=" flex  flex-col md:flex-row items-center justify-center  max-w-screen-xl mx-auto mt-10 px-7 py-24">
                 <div className="w-2/4 col-span-1 ">
-                    <img className="" src="/public/resource/undraw_Login_re_4vu2-removebg-preview.jpg" alt="" />
+                    <img className="" src="../resource/undraw_Login_re_4vu2-removebg-preview.jpg" alt="" />
                 </div>
                 <div className="shadow-md border w-2/3 col-span-3 mx-auto p-5   md:w-3/5 lg:w-1/3  rounded-md">
                     <h2 className="text-3xl font-bold text-[#2C3659] mb-8 text-center">Sign In</h2>

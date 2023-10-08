@@ -7,7 +7,7 @@ const TeamMember = () => {
             <h2 className="text-xl md:text-2xl lg:text-4xl font-bold py-4 md:py-12">Meet  Our Team Member</h2>
             <div className='grid    gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-4  '>
                 <div className="bg-gray-100 border-b-4 border-[#03d5b4] rounded-md">
-                    <img className="rounded-t-md mb-2 w-full h-3/4" src="/public/resource/teacher/teacher1.jpg" alt="" />
+                    <img className="rounded-t-md mb-2 w-full h-3/4" src="../resource/teacher/teacher1.jpg" alt="" />
                     <div className="space-y-2 px-4">
                         <h2 className="text-xl font-bold">Tomas Bata</h2>
                         <small><span className="font-semibold ">Work On:</span> Financial Literacy Seminar</small>
@@ -15,7 +15,7 @@ const TeamMember = () => {
 
                 </div>
                 <div className="bg-gray-100 border-b-4 border-[#03d5b4] rounded-md">
-                    <img className="rounded-t-md mb-2 w-full h-3/4" src="/public/resource/teacher/teacher2.jpg" alt="" />
+                    <img className="rounded-t-md mb-2 w-full h-3/4" src="../resource/teacher/teacher2.jpg" alt="" />
                     <div className="space-y-2 px-4">
                         <h2 className="text-xl font-bold">John Harris</h2>
                         <small><span className="font-semibold ">Work On:</span> History Lecture Series</small>
@@ -23,7 +23,7 @@ const TeamMember = () => {
 
                 </div>
                 <div className="bg-gray-100 border-b-4 border-[#03d5b4] rounded-md">
-                    <img className="rounded-t-md mb-2 w-full h-3/4" src="/public/resource/teacher/teacher3.jpg" alt="" />
+                    <img className="rounded-t-md mb-2 w-full h-3/4" src="../resource/teacher/teacher3.jpg" alt="" />
                     <div className="space-y-2 px-4">
                         <h2 className="text-xl font-bold">David Weems</h2>
                         <small><span className="font-semibold ">Work On:</span> Science Fair for Kids</small>
@@ -31,7 +31,7 @@ const TeamMember = () => {
 
                 </div>
                 <div className="bg-gray-100 border-b-4 border-[#03d5b4] rounded-md">
-                    <img className="rounded-t-md mb-2 w-full h-3/4" src="/public/resource/teacher/teacher4.jpg" alt="" />
+                    <img className="rounded-t-md mb-2 w-full h-3/4" src="../resource/teacher/teacher4.jpg" alt="" />
                     <div className="space-y-2 px-4">
                         <h2 className="text-xl font-bold">John Frieda</h2>
                         <small><span className="font-semibold ">Work On:</span> Creative Writing Workshop</small>
