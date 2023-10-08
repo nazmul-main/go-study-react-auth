@@ -63,14 +63,17 @@ const SignUp = () => {
     }
 
     return (
-        <div className="max-w-screen-xl mx-auto mt-10 px-7">
-            <div className=" mx-auto md:w-3/5 lg:w-1/3 p-5 bg-slate-200 rounded-md">
-                <h2 className="text-3xl font-semibold mb-8 text-center">Sign up</h2>
+        <div className="flex  flex-col md:flex-row-reverse items-center justify-center max-w-screen-xl mx-auto mt-10 px-7">
+            <div className="md:w-2/4 col-span-1">
+                <img src="/public/resource/undraw_Sign_up_n6im-removebg-preview.jpg" alt="" />
+            </div>
+            <div className="shadow-md md:w-2/3 col-span-3 mx-auto  lg:w-1/3 p-5  border rounded-md">
+                <h2 className="text-3xl font-bold mb-8 text-center text-[#2C3659] ">Sign up</h2>
 
                 <form onSubmit={handleSubmit} className="space-y-7 ">
                     <div>
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Your Name "
                             type="name"
                             name="name"
@@ -79,7 +82,7 @@ const SignUp = () => {
                     </div>
                     <div>
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Email Aeddress "
                             type="email"
                             name="email"
@@ -87,7 +90,7 @@ const SignUp = () => {
                     </div>
                     <div>
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Image URL (Optional) "
                             type="text"
                             name="img"
@@ -95,7 +98,7 @@ const SignUp = () => {
                     </div>
                     <div className="relative">
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Password"
 
                             name="password"
@@ -106,12 +109,12 @@ const SignUp = () => {
                     </div>
                     <div>
                         <input className="mr-2" type="checkbox" name="terms" id="terms" />
-                        <label htmlFor="terms">Accept our <a href="" className="text-blue-700">terms</a> and <a href="" className="text-blue-700">condition</a></label>
+                        <label htmlFor="terms">Accept our <a href="" className="text-[#03d5b4]">terms</a> and <a href="" className="text-[#03d5b4]">condition</a></label>
                     </div>
 
-                    <input className="w-full btn bg-blue-800 hover:bg-blue-600 text-white font-semibold" type="submit" value="Sign Up" />
+                    <input className="w-full btn bg-[#03d5b4] hover:bg-[#03d5b4]  font-bold text-[#2C3659]" type="submit" value="Sign Up" />
 
-                    <p>Aready have an acount <Link className="text-blue-800 font-semibold" to="/signin">Login</Link> </p>
+                    <p>Aready have an acount <Link className="text-[#03d5b4] font-semibold" to="/signin">Login</Link> </p>
                 </form>
                 <SocialLogin></SocialLogin>
 

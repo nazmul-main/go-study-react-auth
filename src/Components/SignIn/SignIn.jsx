@@ -33,7 +33,7 @@ const SignIn = () => {
                 navigate(location?.state ? location.state : '/')
             })
             .catch(err => {
-                toast.error(err.message); // Log the error message for debugging
+                toast.error('eamil or password was wrong'); // Log the error message for debugging
                 
             });
 
@@ -43,14 +43,17 @@ const SignIn = () => {
 
     }
     return (
-        <div className="max-w-screen-xl mx-auto mt-10 px-7">
-            <div className=" mx-auto p-5   md:w-3/5 lg:w-1/3 bg-slate-200 rounded-md">
-                <h2 className="text-3xl font-semibold mb-8 text-center">Sign In</h2>
+        <div className=" flex  flex-col md:flex-row items-center justify-center  max-w-screen-xl mx-auto mt-10 px-7">
+             <div className="w-2/4 col-span-1 ">
+                <img className="" src="/public/resource/undraw_Login_re_4vu2-removebg-preview.jpg" alt="" />
+            </div>
+            <div className="shadow-md border w-2/3 col-span-3 mx-auto p-5   md:w-3/5 lg:w-1/3  rounded-md">
+                <h2 className="text-3xl font-bold text-[#2C3659] mb-8 text-center">Sign In</h2>
 
                 <form onSubmit={handleSignin} className="space-y-7 ">
                     <div>
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Email Aeddress "
                             type="email"
                             name="email"
@@ -58,9 +61,8 @@ const SignIn = () => {
                     </div>
                     <div className="relative">
                         <input
-                            className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                            className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                             placeholder="Password"
-
                             name="password"
                             id=""
                             required
@@ -69,16 +71,17 @@ const SignIn = () => {
                     </div>
                     <div>
                         <input className="mr-2" type="checkbox" name="terms" id="terms" />
-                        <label htmlFor="terms">Accept our <a href="" className="text-blue-700">terms</a> and <a href="" className="text-blue-700">condition</a></label>
+                        <label htmlFor="terms text-[#2C3659]">Accept our <a href="" className="text-[#03d5b4]">terms</a>  <a href="" className="text-[#03d5b4]">and  condition</a></label>
                     </div>
 
-                    <input className="w-full btn bg-blue-800 hover:bg-blue-600 text-white font-semibold" type="submit" value="Sign Up" />
+                    <input className="w-full btn bg-[#03d5b4] hover:bg-[#03d5b4] text-[#2C3659] font-bold" type="submit" value="Sign In" />
 
-                    <p>Ceate an acount ! <Link className="text-blue-800 font-semibold" to="/signup">Sign Up</Link> </p>
+                    <p>Ceate an acount ! <Link className="text-[#03d5b4] font-semibold" to="/signup">Sign Up</Link> </p>
                 </form>
                 <SocialLogin></SocialLogin>
 
             </div>
+           
         </div>
     );
 };

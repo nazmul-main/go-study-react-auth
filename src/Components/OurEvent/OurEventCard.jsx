@@ -9,8 +9,8 @@ const OurEventCard = ({ course }) => {
     return (
 
         <div>
-            <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-red-600 border-b-4 text-gray-700 shadow-md group">
-                <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 group">
+            <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-[#03d5b4] border-b-4 text-gray-700 shadow-md group">
+                <div className="relative  overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 group">
                     <div className="relative h-36 w-full transition-transform transform scale-100 hover:scale-110">
                         <img
                             src={image}
@@ -23,20 +23,20 @@ const OurEventCard = ({ course }) => {
 
                 <div className="p-6">
                     <div className="mb-2">
-                        <p className="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased hover:text-red-600">
+                        <p className="block font-sans text-base font-bold leading-relaxed text-blue-gray-900 antialiased hover:text-[#03d5b4]">
                             {name}
                         </p>
-                        <p className="block font-sans text-base leading-relaxed text-blue-gray-900 antialiased hover:text-red-600 font-bold">
+                        <p className="block font-semibold text-base leading-relaxed text-blue-gray-900 antialiased hover:text-[#03d5b4] ">
                             Price: {price}
                         </p>
                     </div>
-                    <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75 hover:text-red-600">
+                    <p className="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75 hover:text-[#03d5b4]">
                         {description}
                     </p>
                 </div>
                 <div className="p-6 pt-0">
                     <Link to={`/details/${id}`}>
-                        <button className="w-full btn text-red-600 hover:bg-red-600 hover:text-white" type="button">Details</button>
+                        <button className="w-full outline-gray-600 btn text-[#2C3659] hover:bg-[#03d5b4] " type="button">Details</button>
                     </Link>
                 </div>
             </div>

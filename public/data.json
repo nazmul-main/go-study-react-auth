@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "event1.jpg",
+    "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_Data_Science.jpg",
     "name": "Introduction to Data Science",
     "price": "$49.99",
     "description": "Learn the fundamentals of data science, including data analysis and visualization.",
@@ -9,7 +9,7 @@
   },
   {
     "id": "2",
-    "image": "event2.jpg",
+    "image": "https://www.codingninjas.com/blog/wp-content/uploads/2021/08/Blog-2-2.png",
     "name": "Web Development Bootcamp",
     "price": "$199.99",
     "description": "Join our intensive web development bootcamp and build your first website from scratch.",
@@ -17,7 +17,7 @@
   },
   {
     "id": "3",
-    "image": "event3.jpg",
+    "image": "https://www.skillsuccess.com/wp-content/uploads/2020/09/creative-writing-5.jpg",
     "name": "Creative Writing Workshop",
     "price": "$29.99",
     "description": "Unlock your writing potential in this hands-on creative writing workshop.",
@@ -25,7 +25,7 @@
   },
   {
     "id": "4",
-    "image": "event4.jpg",
+    "image": "https://cdn-az.allevents.in/events5/banners/4d912a7b0c665d3d30ff87a79946934b7b988d6e700109454b93fbc3d3249909-rimg-w1200-h675-gmir.jpg?v=1695057326",
     "name": "Digital Marketing Masterclass",
     "price": "$79.99",
     "description": "Learn advanced digital marketing strategies and tactics from industry experts.",
@@ -33,7 +33,7 @@
   },
   {
     "id": "5",
-    "image": "event5.jpg",
+    "image": "https://learning-center.homesciencetools.com/wp-content/uploads/Blog-Banner-2-1080x675.png",
     "name": "Science Fair for Kids",
     "price": "Free",
     "description": "Encourage your child's interest in science at our interactive science fair for kids.",
@@ -41,7 +41,7 @@
   },
   {
     "id": "6",
-    "image": "event6.jpg",
+    "image": "https://thumbs.dreamstime.com/b/financial-literacy-training-schematic-planning-structure-green-school-blackboard-117289951.jpg",
     "name": "Financial Literacy Seminar",
     "price": "$19.99",
     "description": "Get a grip on your finances with expert advice at our financial literacy seminar.",
@@ -49,7 +49,7 @@
   },
   {
     "id": "7",
-    "image": "event7.jpg",
+    "image": "https://img.freepik.com/free-vector/students-practicing-dynamic-foreign-language-learning-workshop_335657-3306.jpg",
     "name": "Language Learning Workshop",
     "price": "$39.99",
     "description": "Master a new language with our immersive language learning workshop.",
@@ -57,7 +57,7 @@
   },
   {
     "id": "8",
-    "image": "event8.jpg",
+    "image": "https://cdn11.bigcommerce.com/s-iuax7bpgx3/images/stencil/1280x1280/products/3288/3690/3690__08413.1666799880.jpg?c=1",
     "name": "History Lecture Series",
     "price": "Free",
     "description": "Explore fascinating historical topics with our history lecture series.",

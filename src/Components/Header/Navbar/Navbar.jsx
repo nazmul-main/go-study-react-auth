@@ -5,16 +5,16 @@ const navLink = <>
 
 
     <li><NavLink to="/" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Home</NavLink>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Home</NavLink>
     </li>
     <li><NavLink to="/courses" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Courses</NavLink>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Courses</NavLink>
     </li>
     <li><NavLink to="/blog" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Blog</NavLink>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Blog</NavLink>
     </li>
     <li><NavLink to="/contact" className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-red-500 font-semibold underline" : "hover:text-red-500 font-semibold"}> Concant</NavLink>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Concant</NavLink>
     </li>
 
 
@@ -23,7 +23,7 @@ const Navbar = () => {
     const { user, logout } = UseAuth()
 
     return (
-        <div className="navbar bg-base-100 max-w-screen-xl mx-auto my-4 ">
+        <div className="navbar max-w-screen-xl mx-auto my-4 ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-sm lg:hidden mr-2">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to={'/'} className="normal-case text-xl">
-                    <img className=" w-32 md:w-40" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQVRnblhtYIoKaKF5HD1G3bW1-mbyvKzdprZ6jj5GILrpXqHhjX" alt="" />
+                    <img className=" w-32 md:w-40" src="https://colmooc.eu/wp-content/uploads/2019/12/Letstudy_Logo_Light_Horizontal@2x.png" alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex items-start">
@@ -65,9 +65,9 @@ const Navbar = () => {
                         </ul>
 
                     </div>
-                    <Link onClick={logout} className=" px-4 py-1 rounded-md bg-red-500 text-white ">Logout</Link>
+                    <Link onClick={logout} className=" px-4 py-1 rounded-md bg-[#03d5b4] text-[#2C3659] font-bold ">Sign Out</Link>
                 </div> : <div className="navbar-end">
-                    <Link to='/signin' className=" px-4 py-1 rounded-md bg-red-500 text-white ">Login</Link>
+                    <Link to='/signin' className=" px-4 py-1 rounded-md bg-[#03d5b4] text-[#2C3659] font-bold">Sign In</Link>
                 </div>
             }
 
