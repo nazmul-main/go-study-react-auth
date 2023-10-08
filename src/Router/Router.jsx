@@ -10,6 +10,8 @@ import SignUp from '../Components/SignUp/SignUp';
 import Error from '../Error/Error';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import EvenetDetails from '../Components/EvenetDetails/EvenetDetails';
+import Benifits from '../Components/Benifits/Benifits';
+import TeamMember from '../Components/TeamMember/TeamMember';
 
 const Router = createBrowserRouter([
     {
@@ -25,6 +27,14 @@ const Router = createBrowserRouter([
             {
                 path: '/courses',
                 element: <Courses></Courses>
+            },
+            {
+                path: '/benifits',
+                element: <Benifits></Benifits>
+            },
+            {
+                path: '/team',
+                element: <TeamMember></TeamMember>
             },
             {
                 path: '/blog',
