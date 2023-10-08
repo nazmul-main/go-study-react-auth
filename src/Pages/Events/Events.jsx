@@ -1,5 +1,5 @@
 
-const Courses = () => {
+const Events = () => {
     return (
         <div>
             Courses
@@ -7,4 +7,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default Events;

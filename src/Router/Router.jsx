@@ -2,14 +2,14 @@
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '../Layout/MainLayout';
 import Home from '../Pages/Home/Home';
-import Courses from '../Pages/Course/Courses';
+import Courses from '../Pages/Events/Events';
 import Blog from '../Pages/Blog/Blog';
 import Contact from '../Pages/Contact/Contact';
 import SignIn from '../Components/SignIn/SignIn';
 import SignUp from '../Components/SignUp/SignUp';
 import Error from '../Error/Error';
-import CourseDetails from '../Components/CourseDetails/CourseDetails';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
+import EvenetDetails from '../Components/EvenetDetails/EvenetDetails';
 
 const Router = createBrowserRouter([
     {
@@ -45,7 +45,7 @@ const Router = createBrowserRouter([
             {
                 path: '/details/:id',
                 element: <PrivateRoute>
-                    <CourseDetails></CourseDetails>
+                    <EvenetDetails></EvenetDetails>
                 </PrivateRoute>,
                 loader: () => fetch('/data.json')
             }

@@ -1,67 +1,66 @@
 [
-    {
-      "id": "1",
-      "name": "Learn React JS Tutorial For Beginners",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/09/BL8312-740x540.jpg",
-      "price": 19.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "details": "Details for Product 1"
-    },
-    {
-      "id": "2",
-      "name": "Basics of Cooking for Busy People",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/PT991-740x540.jpg",
-      "price": 29.99,
-      "description": "Suspendisse potenti. Nulla facilisi.. asdbfa asdhhadd ",
-      "details": "Details for Product 2"
-    },
-    {
-      "id": "3",
-      "name": "English Pronunciation for Beginners",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/BL416-740x540.jpg",
-      "price": 14.99,
-      "description": "Vivamus non fermentum massa, et rhoncus odio.",
-      "details": "Details for Product 3"
-    },
-    {
-      "id": "4",
-      "name": "Health and Safety Awareness Training",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/03/CO994-740x540.jpeg",
-      "price": 24.99,
-      "description": "Quisque sed nunc eget ligula auctor posuere.",
-      "details": "Details for Product 4"
-    },
-    {
-      "id": "5",
-      "name": "Complete Financial Analyst Course",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/03/CO992-740x540.jpg",
-      "price": 34.99,
-      "description": "Suspendisse potenti. Nulla facilisi.. asdbfa asdhhadd .",
-      "details": "Details for Product 5"
-    },
-    {
-      "id": "6",
-      "name": "Easy Food Recipes to Make at Home",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/06/TT433YT-740x540.jpeg",
-      "price": 22.99,
-      "description": "Integer congue libero vel mi elementum.",
-      "details": "Details for Product 6"
-    },
-    {
-      "id": "7",
-      "name": "Drawing and Painting Course for Children",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2020/09/BLP019-740x540.jpg",
-      "price": 18.99,
-      "description": "Aenean nec feugiat erat. Sed tincidunt arcu.",
-      "details": "Details for Product 7"
-    },
-    {
-      "id": "8",
-      "name": "IELTS Course for international students",
-      "image": "https://raistheme.com/wp/gostudy/learnpress/wp-content/uploads/sites/2/2021/04/BLP20-740x540.jpg",
-      "price": 27.99,
-      "description": "Cras vel eros vitae elit bibendum mattis.",
-      "details": "Details for Product 8"
-    }
-  ]
-  
+  {
+    "id": "1",
+    "image": "event1.jpg",
+    "name": "Introduction to Data Science",
+    "price": "$49.99",
+    "description": "Learn the fundamentals of data science, including data analysis and visualization.",
+    "event_details": "Date: November 15, 2023\nTime: 9:00 AM - 5:00 PM\nLocation: City Conference Center"
+  },
+  {
+    "id": "2",
+    "image": "event2.jpg",
+    "name": "Web Development Bootcamp",
+    "price": "$199.99",
+    "description": "Join our intensive web development bootcamp and build your first website from scratch.",
+    "event_details": "Date: December 5-7, 2023\nTime: 10:00 AM - 4:00 PM\nLocation: Tech Institute"
+  },
+  {
+    "id": "3",
+    "image": "event3.jpg",
+    "name": "Creative Writing Workshop",
+    "price": "$29.99",
+    "description": "Unlock your writing potential in this hands-on creative writing workshop.",
+    "event_details": "Date: January 10, 2024\nTime: 1:00 PM - 3:30 PM\nLocation: Community Arts Center"
+  },
+  {
+    "id": "4",
+    "image": "event4.jpg",
+    "name": "Digital Marketing Masterclass",
+    "price": "$79.99",
+    "description": "Learn advanced digital marketing strategies and tactics from industry experts.",
+    "event_details": "Date: February 8-10, 2024\nTime: 9:30 AM - 4:30 PM\nLocation: Marketing Hub"
+  },
+  {
+    "id": "5",
+    "image": "event5.jpg",
+    "name": "Science Fair for Kids",
+    "price": "Free",
+    "description": "Encourage your child's interest in science at our interactive science fair for kids.",
+    "event_details": "Date: March 15, 2024\nTime: 11:00 AM - 2:00 PM\nLocation: Junior Science Center"
+  },
+  {
+    "id": "6",
+    "image": "event6.jpg",
+    "name": "Financial Literacy Seminar",
+    "price": "$19.99",
+    "description": "Get a grip on your finances with expert advice at our financial literacy seminar.",
+    "event_details": "Date: April 20, 2024\nTime: 6:30 PM - 8:00 PM\nLocation: Finance Institute"
+  },
+  {
+    "id": "7",
+    "image": "event7.jpg",
+    "name": "Language Learning Workshop",
+    "price": "$39.99",
+    "description": "Master a new language with our immersive language learning workshop.",
+    "event_details": "Date: May 5-7, 2024\nTime: 10:00 AM - 2:00 PM\nLocation: Language Center"
+  },
+  {
+    "id": "8",
+    "image": "event8.jpg",
+    "name": "History Lecture Series",
+    "price": "Free",
+    "description": "Explore fascinating historical topics with our history lecture series.",
+    "event_details": "Date: June 1-30, 2024\nTime: Various sessions\nLocation: History Museum"
+  }
+]

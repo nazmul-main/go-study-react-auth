@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
-import OurCourses from "../../Components/OurCourses/OurCourses";
 import Banner from "../../Components/Header/Banner/Banner";
+import OurEvent from "../../Components/OurEvent/OurEvent";
 
 const Home = () => {
 
@@ -9,9 +9,9 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <OurCourses courses={courses}></OurCourses>
+            <OurEvent courses={courses}></OurEvent>
         </div>
     );
 };
 
-export default Home;
+export default Home

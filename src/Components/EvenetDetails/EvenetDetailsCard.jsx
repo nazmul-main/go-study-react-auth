@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CourseDetailsCard = ({ course }) => {
+const EvenetDetailsCard = ({ course }) => {
     const { id, name, image, price, description, } = course || {}
 
 
@@ -40,4 +40,4 @@ const CourseDetailsCard = ({ course }) => {
     );
 };
 
-export default CourseDetailsCard;
+export default EvenetDetailsCard;

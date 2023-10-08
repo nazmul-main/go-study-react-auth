@@ -2,14 +2,14 @@
 
 import { Link } from 'react-router-dom';
 
-const OurCoursesCard = ({ course }) => {
+const OurEventCard = ({ course }) => {
 
     const { id, name, image, price, description, } = course || {}
 
     return (
 
         <div>
-            <div className="relative flex flex-col rounded-xl bg-white bg-clip-border border-red-600 border-b-4 text-gray-700 shadow-md group">
+            <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-red-600 border-b-4 text-gray-700 shadow-md group">
                 <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 group">
                     <div className="relative h-36 w-full transition-transform transform scale-100 hover:scale-110">
                         <img
@@ -46,4 +46,4 @@ const OurCoursesCard = ({ course }) => {
     );
 };
 
-export default OurCoursesCard;
+export default OurEventCard;
