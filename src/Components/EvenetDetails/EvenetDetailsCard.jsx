@@ -12,15 +12,15 @@ const EvenetDetailsCard = ({ course }) => {
     return (
 
         <div className='mb-12'>
-            <div className="flex h-[15vh] md:h-[25vh] bg-black-opacity bg-[url('https://i.ibb.co/zsxPGBj/thought-catalog-505eect-W54k-unsp.jpg')] bg-no-repeat bg-cover text-white items-center justify-center mb-6">
-                <hr />
-                <h2 className="text-2xl md:text-4xl font-bold">Event Details</h2>
-            </div>
+             <h2 className="text-2xl md:text-4xl text-center mb-2 font-bold">Event Details</h2>
 
-            <div className=" grid grid-cols-4 justify-center items-center max-w-screen-xl mx-auto ">
-                <div className="col-span-3 ">
-                    <img src={image} className="w-full h-38 md:h-72 object-cover" alt="" />
+
+            <div className="border-8 w-1/12  mx-auto mb-6 border-teal-500"></div>
+            <div className="  justify-center items-center max-w-screen-xl mx-auto ">
+                <div className="w-4/5 mx-auto space-y-5 ">
+                    <img src={image} className="w-full h-38 md:h-96 object-cover" alt="" />
                     <h2 className='text-2xl font-bold'>{name}</h2>
+                    <div className="border-4 w-1/12   mb-6 border-teal-500"></div>
                     <p className='justify-center'>
                         {event_details}
                     </p><br />

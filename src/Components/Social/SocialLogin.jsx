@@ -30,7 +30,7 @@ const SocialLogin = () => {
         <div>
             <div className='divider'>  Continue With </div>
             <div>
-                <button  onClick={() => handleSocialLogin(googleLogin)} className='btn'>
+                <button  onClick={() => handleSocialLogin(googleLogin)} className='btn w-full'>
                     Google
                 </button>
             </div>
