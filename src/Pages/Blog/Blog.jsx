@@ -16,7 +16,7 @@ const Blog = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-12 w-4/5 py-4 ">
+            <div className="max-w-screen-xl mx-auto px-4 md:px-8 lg:px-12 md:w-4/5 py-4 ">
                 {
                     blogData?.map((blog) => (
                         <BlogCard key={blog.id} blog={blog} />
