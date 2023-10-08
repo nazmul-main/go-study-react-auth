@@ -1,14 +1,22 @@
 /* eslint-disable react/prop-types */
 
 import { Link } from 'react-router-dom';
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const OurEventCard = ({ course }) => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        });
+      }, []);
 
     const { id, name, image, price, description, } = course || {}
 
     return (
 
-        <div>
+        <div data-aos="zoom-out-right">
             <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-[#03d5b4] border-b-4 text-gray-700 shadow-md group">
                 <div className="relative  overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 group">
                     <div className="relative h-36 w-full transition-transform transform scale-100 hover:scale-110">

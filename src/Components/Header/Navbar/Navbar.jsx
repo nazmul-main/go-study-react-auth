@@ -23,7 +23,7 @@ const Navbar = () => {
     const { user, logout } = UseAuth()
 
     return (
-        <div className="navbar max-w-screen-xl mx-auto my-4 ">
+        <div className="navbar max-w-screen-xl mx-auto my-4">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-sm lg:hidden mr-2">
