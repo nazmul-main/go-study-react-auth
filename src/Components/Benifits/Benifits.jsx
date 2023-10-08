@@ -6,12 +6,12 @@ const Benifits = () => {
             <div className="flex flex-col lg:flex-row  md:px-28 justify-center items-center gap-2 md:gap-12">
                 <div className="flex gap-4 ">
                     <div>
-                        <img src="/public/resource/img2.jpg" alt="" />
-                        <img className="w-3/5 float-right mt-4" src="/public/resource/img4.jpg" alt="" />
+                        <img src="../resource/img2.jpg" alt="" />
+                        <img className="w-3/5 float-right mt-4" src="../resource/img4.jpg" alt="" />
                     </div>
 
                     <div>
-                        <img className="" src="/public/resource/img3.jpg" alt="" />
+                        <img className="" src="../resource/img3.jpg" alt="" />
                     </div>
                 </div>
 
