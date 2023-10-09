@@ -10,7 +10,6 @@ const SignIn = () => {
     const { signin } = UseAuth()
     const navigate = useNavigate()
     const location = useLocation()
-
     const [showPassword, setShowPassword] = useState(false);
     console.log('login page', location);
 
@@ -74,7 +73,7 @@ const SignIn = () => {
                         </div>
                         <div className="relative">
                             <input
-                                className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
+                                className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
                                 placeholder="Password"
                                 type={showPassword ? "text" : "password"}
                                 name="password"
@@ -82,7 +81,7 @@ const SignIn = () => {
                                 required
                             />
                             <span
-                                className="absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer"
+                                className="text-[#03d5b4] absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer"
                                 onClick={() => setShowPassword(!showPassword)}
                             >
                                 {showPassword ? <FaEyeSlash /> : <FaEye />}
