@@ -3,11 +3,15 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "../Social/SocialLogin";
 import UseAuth from "../../Hooks/UseAuth";
 import toast from "react-hot-toast";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
+import { useState } from "react";
 
 const SignIn = () => {
     const { signin } = UseAuth()
     const navigate = useNavigate()
     const location = useLocation()
+
+    const [showPassword, setShowPassword] = useState(false);
     console.log('login page', location);
 
 
@@ -70,13 +74,19 @@ const SignIn = () => {
                         </div>
                         <div className="relative">
                             <input
-                                className="outline-none border border-[#03d5b4] w-full rounded-md py-2 px-2"
+                                className="outline-none border border-blue-700 w-full rounded-md py-2 px-2"
                                 placeholder="Password"
+                                type={showPassword ? "text" : "password"}
                                 name="password"
                                 id=""
                                 required
                             />
-
+                            <span
+                                className="absolute inset-y-0 right-0 flex items-center pr-2 cursor-pointer"
+                                onClick={() => setShowPassword(!showPassword)}
+                            >
+                                {showPassword ? <FaEyeSlash /> : <FaEye />}
+                            </span>
                         </div>
                         <div>
                             <input className="mr-2" type="checkbox" name="terms" id="terms" />

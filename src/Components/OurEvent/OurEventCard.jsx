@@ -16,8 +16,8 @@ const OurEventCard = ({ course }) => {
 
     return (
 
-        <div data-aos="zoom-out-right">
-            <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-[#03d5b4] border-b-4 text-gray-700 shadow-md group">
+        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div data-aos-anchor-placement="center-bottom" className="relative flex  flex-col rounded-xl bg-white bg-clip-border border-[#03d5b4] border-b-4 text-gray-700 shadow-md group">
                 <div className="relative  overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 group">
                     <div className="relative h-36 w-full transition-transform transform scale-100 hover:scale-110">
                         <img
