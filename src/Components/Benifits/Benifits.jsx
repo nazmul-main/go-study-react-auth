@@ -27,7 +27,7 @@ const Benifits = () => {
 
                 <div data-aos="fade-down-right" className="space-y-4">
                     <div data-aos="fade-up-right" className="border-2 w-1/6  border-yellow-300"></div>
-                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">For professional development report , career benefits</h2>
+                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold"> Career benefits</h2>
                     <p className="text-gray-500">You can start and finish one of these popular courses in under a day  <br />for free! Check out the list below.. Take the course for free
                     </p>
                     <ul data-aos="fade-up-left" className="list-disc ml-7 text-gray-500">

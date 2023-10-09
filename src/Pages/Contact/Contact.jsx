@@ -1,6 +1,16 @@
+import toast from "react-hot-toast";
 
 
 const Contact = () => {
+
+
+    const handleContact = () => {
+        toast.success('Message sent successfully!', {
+          duration: 3000,
+        });
+      };
+    
+
     return (
         <div>
             <div className="h-[15vh] md:h-[25vh] relative">
@@ -16,7 +26,7 @@ const Contact = () => {
                     <div className="w-2/4 col-span-1 ">
                         <img className="" src="../resource/undraw_Contact_us_re_4qqt-removebg-preview.png" alt="" />
                     </div>
-                    <div className="shadow-md border w-2/3 col-span-3 mx-auto p-5   md:w-3/5 lg:w-1/3  rounded-md">
+                    <div className="shadow-md border  col-span-3 mx-auto p-5   md:w-3/5 lg:w-1/3  rounded-md">
                         <h2 className="text-3xl font-bold text-[#2C3659] mb-8 text-center">Contact Us</h2>
 
                         <form className="space-y-7 ">
@@ -45,9 +55,18 @@ const Contact = () => {
                                 />
 
                             </div>
+                            <div>
+                                <textarea
+                                    className="outline-none border border-[#03d5b4] w-full h-24 rounded-md py-2 px-2"
+                                    placeholder="What's on you mind"
+                                    id=""
+                                    required
+                                ></textarea>
+                            </div>
 
 
-                            <input className="w-full btn bg-[#03d5b4] hover:bg-[#03d5b4] text-[#2C3659] font-bold" type="submit" value="Sent" />
+
+                            <input onClick={handleContact} className="w-full btn bg-[#03d5b4] hover:bg-[#03d5b4] text-[#2C3659] font-bold" type="submit" value="Sent" />
 
                         </form>
 

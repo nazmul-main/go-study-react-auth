@@ -48,8 +48,10 @@ const SignUp = () => {
             .then(res => {
                 handleUpdateProfile(name, img)
                     .then(() => {
+                        window.location.reload()
                         toast.success('user create succesfully')
                         navigate(location?.state ? location.state : '/')
+                        
                     })
 
             })

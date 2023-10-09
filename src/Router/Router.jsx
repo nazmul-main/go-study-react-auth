@@ -12,6 +12,7 @@ import EvenetDetails from '../Components/EvenetDetails/EvenetDetails';
 import Benifits from '../Components/Benifits/Benifits';
 import TeamMember from '../Components/TeamMember/TeamMember';
 import Events from '../Pages/Events/Events';
+import About from '../Pages/About/About';
 
 const Router = createBrowserRouter([
     {
@@ -49,6 +50,10 @@ const Router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '/about',
+                element: <About></About>
             },
             {
                 path: '/signin',

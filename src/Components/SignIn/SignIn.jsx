@@ -22,21 +22,15 @@ const SignIn = () => {
         const password = e.target.password.value
 
 
-        /* validation */
-        /*  if (password.length < 6) {
-             toast.error('password must be at least 6 characters');
-             return
-         } */
-
-
-        /* creatting a new user */
+       
         signin(email, password)
             .then(res => {
                 toast.success('Log in successfully');
                 navigate(location?.state ? location.state : '/')
+                
             })
             .catch(err => {
-                toast.error('eamil or password was wrong'); // Log the error message for debugging
+                toast.error('eamil or password was wrong'); 
 
             });
 

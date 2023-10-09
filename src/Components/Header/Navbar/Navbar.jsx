@@ -16,6 +16,9 @@ const navLink = <>
     <li><NavLink to="/contact" className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> Concant</NavLink>
     </li>
+    <li><NavLink to="/about" className={({ isActive, isPending }) =>
+        isPending ? "pending" : isActive ? "text-[#03d5b4] font-semibold underline" : "hover:text-[#03d5b4] font-semibold text-[#2C3659]"}> About us</NavLink>
+    </li>
 
 
 </>
@@ -48,7 +51,7 @@ const Navbar = () => {
                     <div className="dropdown dropdown-end mr-4">
                         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img src={user.photoURL} alt={user.displayName} />
+                                <img src={user.photoURL ? user.photoURL : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyhj1gUUYu1c8817GfPwApJbYzW9lJdjSXQ&usqp=CAU"} alt={user.displayName} />
                             </div>
                         </label>
                         <ul tabIndex={0} className=":  dropdown-content mt-3 z-[1] p-2 shadow bg-green-200 rounded-b-full rounded-l-full py-2 px-4">
